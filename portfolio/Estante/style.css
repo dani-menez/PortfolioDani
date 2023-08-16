@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth; /* para link levar mais suave até o local */
+}
+/* Corpo da Aplicação */
+body {
+    /* background */
+    background-color: #f2e7dc;
+    /* Texto */
+    color: #0d0d0d;
+    text-align: justify;
+    /* Alinamento e Tamanho */
+    width: 85%; /*px é a medida do espaço da tela; % é o espaço que ela ocupa. 1rem = 16px */
+    margin: auto;
+
+}
+/* Sessões dos livros */
+section {
+    /* Espaçamentos */
+padding: 64px 256px;
+/* ou
+padding-left: 256px;
+padding-right: 256px;
+padding-bottom: 64px;
+padding-top: 64px;*/
+}
+/* Tabela */
+table {
+    /* Largura */
+    width: 100%;
+}
+td {
+    background-color: #a9d9d0;
+}
+td,th {
+    /* borda no formato shorthand */
+    border: #000 solid 1px;
+     /* ou
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;*/
+    border-radius: 4px;   
+    text-align: center;
+}
+tr {
+    background-color: #038c7f;
+}
+/* Título, Texto e Parágrafos */
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #000
+}
+/* Link */
+a:link { /*link normal */
+    color: #f2e7dc
+}
+a:visited { /*link visitado */
+    color: #62a499
+}
+a:hover { /* mouse sobre o link */
+    color: #025454
+}
+a:active { /*link selecionado */
+    color: #0d0d0d
+}
+/* Imagem */
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    
+}
+/* Classes e Ids */
+.bookTitle {
+    background-color: #a9d9d0;
+    color: #038C7F;
+    text-align: center;
+}
+#sectionHP, #sectionGM, #sectionRB {
+    background-color: #a1d9d0;
+}
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+background-color: #038C7F;
+color: #f2e7dc;
+padding: 20px;
+margin-bottom: 50px;
+border-radius: 0 0 50px 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* Rodapé */
+footer {
+    background-color: #038C7F;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
